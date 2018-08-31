@@ -18,4 +18,5 @@ Installation:
 - - - create a new unity project and load Assets folder from GitHub into Unity
 - - - Or: Download and Install the latest Template https://esri.box.com/v/CityEngineAR
 - Additional Installation of JDK, Android SDK (Android Studio) also required.
-** The "How-To" Video above covers all of these steps.
+
+** The "How-To" Video above covers all of the above steps.
