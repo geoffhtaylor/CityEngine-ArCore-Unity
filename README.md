@@ -6,5 +6,15 @@ Currently supports Android Devices via ARCore.
 - Supported Android Devices: https://developers.google.com/ar/discover/supported-devices
 - iOS Devices planned for future**
 
+Compatibility: Last Tested with Unity versions: 
+- 2018.1.9f2
+- 2018.2.6
+
 How-To Video coming soon!
 
+
+Installation:
+- Install Unity Engine with Android Build Support
+- Either: 
+- - create a new unity project and load Assets folder from GitHub into Unity
+- - Or: Download and Install the latest Template https://esri.box.com/v/CityEngineAR 
