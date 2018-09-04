@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: fc858cc08545a244aab288f1d07d5ac1
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: cgalib.TERRAIN_SMOOTH_SIMPLIFY.
     100002: CityEngineMaterial_100_m
@@ -2677,6 +2677,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
