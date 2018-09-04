@@ -15,8 +15,10 @@ How-To Video: https://youtu.be/-hGFLRV4bM8
 Installation:
 - Install Unity Engine with Android Build Support
 - - Either: 
-- - - create a new unity project and load Assets folder from GitHub into Unity
-- - - Or: Download and Install the latest Template https://esri.box.com/v/CityEngineAR
+- - - Download and Install the latest Template https://esri.box.com/v/CityEngineAR   <-- Easiest Approach
+- - - OR:  create a new unity project and load Assets folder from GitHub into Unity
+- - - - - /* Downloading a .zip of the project files will not work. 
+- - - - - - - requires GitLFS https://git-lfs.github.com/ and Git https://git-scm.com/ to download successfully*
 - Additional Installation of JDK, Android SDK (Android Studio) also required.
 
 ** The "How-To" Video above covers all of the above steps.
