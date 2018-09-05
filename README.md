@@ -1,24 +1,28 @@
 # CityEngine-ArCore-Unity
-CityEngine Augmented Reality template for Unity ARCore
-- Designed for Visualizing CityEngine Design Scenario's via augmented reality.
+## CityEngine Augmented Reality template for Unity ARCore
+###### Solution for Visualizing CityEngine Design Scenario's via augmented reality on consumer mobile devices.
 
-Currently supports Android Devices via ARCore.
-- Supported Android Devices: https://developers.google.com/ar/discover/supported-devices
-- iOS Devices planned for future**
+**Supported Devices**
+- [Android Smartphones and Tablets](https://developers.google.com/ar/discover/supported-devices)
+- _iOS Smartphones and Tablet support planned for future release_
 
-Compatibility: Last Tested with Unity versions: 
-- 2018.1.9f2
-- 2018.2.6
+**[Unity](https://unity3d.com/get-unity/download) Compatibility:**
+- Release 2018.2.6 with Android Build Support
 
 How-To Video: https://youtu.be/-hGFLRV4bM8
 
-Installation:
-- Install Unity Engine with Android Build Support
-- - Either: 
-- - - Download and Install the latest Template https://esri.box.com/v/CityEngineAR   <-- Easiest Approach
-- - - OR:  create a new unity project and load Assets folder from GitHub into Unity
-- - - - - /* Downloading a .zip of the project files will not work. 
-- - - - - - - requires GitLFS https://git-lfs.github.com/ and Git https://git-scm.com/ to download successfully*
-- Additional Installation of JDK, Android SDK (Android Studio) also required.
+Installation Methods:
 
-** The "How-To" Video above covers all of the above steps.
+- Option 1.) [Latest CityEngine AR Unity Package](https://esri.box.com/v/CityEngineAR) **Traditional Users**
+-- required dependencies:
+-- Java Development Kit (JDK)
+-- Android SDK 7.0 (API Level 24) or later installed via [Android Studio] (https://developer.android.com/studio/)
+-- Android Device with [Developer Options] (https://developer.android.com/studio/debug/dev-options#enable) enabled. 
+
+- Option 2.) Download Latest GitHub Repo. **Developers Only**
+-- require dependencies:
+-- GitLFS https://git-lfs.github.com/ **To Successfully Download all files**
+-- Git https://git-scm.com/
+-- Java Development Kit (JDK)
+-- Android SDK 7.0 (API Level 24) or later installed via [Android Studio] (https://developer.android.com/studio/)
+-- Android Device with [Developer Options] (https://developer.android.com/studio/debug/dev-options#enable) enabled. 
