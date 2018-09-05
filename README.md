@@ -19,6 +19,7 @@ Option 1.) [Latest CityEngine AR Unity Package](https://esri.box.com/v/CityEngin
 - [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - Android SDK 7.0 (API Level 24) or later installed via [Android Studio](https://developer.android.com/studio/)
 - Android Device with [Developer Options](https://developer.android.com/studio/debug/dev-options#enable) enabled. 
+- ARCore [Instant Preview](https://developers.google.com/ar/develop/unity/instant-preview)
 
 Option 2.) Download Latest GitHub Repo. **Developers Only**
 - Require Dependencies:
