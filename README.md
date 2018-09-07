@@ -2,6 +2,9 @@
 ## CityEngine Augmented Reality template for Unity ARCore
 ###### Solution for Visualizing CityEngine Design Scenario's via augmented reality on consumer mobile devices.
 
+**Design your City of Environment with Esri CityEngine**
+- [Download your free 30 day CityEngine trial](https://www.esri.com/en-us/arcgis/products/esri-cityengine/overview)
+
 **Supported Devices**
 - [Android Smartphones and Tablets](https://developers.google.com/ar/discover/supported-devices)
 - _iOS Smartphones and Tablet support planned for future release_
