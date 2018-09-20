@@ -1,24 +1,38 @@
 # CityEngine-ArCore-Unity
-CityEngine Augmented Reality template for Unity ARCore
-- Designed for Visualizing CityEngine Design Scenario's via augmented reality.
+## CityEngine Augmented Reality template for Unity ARCore
+###### Solution for Visualizing CityEngine Design Scenario's via augmented reality on consumer mobile devices.
 
-Currently supports Android Devices via ARCore.
-- Supported Android Devices: https://developers.google.com/ar/discover/supported-devices
-- iOS Devices planned for future**
+**Design your City of Environment with Esri CityEngine**
+- [Download your free 30 day CityEngine trial](https://www.esri.com/en-us/arcgis/products/esri-cityengine/overview)
 
-Compatibility: Last Tested with Unity versions: 
-- 2018.1.9f2
-- 2018.2.6
+**Supported Devices**
+- [Android Smartphones and Tablets](https://developers.google.com/ar/discover/supported-devices)
+- _iOS Smartphones and Tablet support planned for future release_
 
-How-To Video: https://youtu.be/-hGFLRV4bM8
+**[Unity](https://unity3d.com/get-unity/download) Compatibility:**
+- Release 2018.2.6 with Android Build Support
 
-Installation:
-- Install Unity Engine with Android Build Support
-- - Either: 
-- - - Download and Install the latest Template https://esri.box.com/v/CityEngineAR   <-- Easiest Approach
-- - - OR:  create a new unity project and load Assets folder from GitHub into Unity
-- - - - - /* Downloading a .zip of the project files will not work. 
-- - - - - - - requires GitLFS https://git-lfs.github.com/ and Git https://git-scm.com/ to download successfully*
-- Additional Installation of JDK, Android SDK (Android Studio) also required.
+[How-To Video](https://youtu.be/-hGFLRV4bM8)
+[![How-To Video](https://img.youtube.com/vi/-hGFLRV4bM8/0.jpg)](https://www.youtube.com/watch?v=-hGFLRV4bM8)
 
-** The "How-To" Video above covers all of the above steps.
+Installation Methods:
+
+Option 1.) [Latest CityEngine AR Unity Package](https://esri.box.com/v/CityEngineAR) **Traditional Users**
+- Required Dependencies:
+- [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- Android SDK 7.0 (API Level 24) or later installed via [Android Studio](https://developer.android.com/studio/)
+- Android Device with [Developer Options](https://developer.android.com/studio/debug/dev-options#enable) enabled. 
+- ARCore [Instant Preview](https://developers.google.com/ar/develop/unity/instant-preview)
+
+Option 2.) Download Latest GitHub Repo. **Developers Only**
+- Require Dependencies:
+- [GitLFS](https://git-lfs.github.com/) **To Successfully Download all files**
+- [Git](https://git-scm.com/)
+- [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- Android SDK 7.0 (API Level 24) or later installed via [Android Studio](https://developer.android.com/studio/)
+- Android Device with [Developer Options](https://developer.android.com/studio/debug/dev-options#enable) enabled. 
+- ARCore [Instant Preview](https://developers.google.com/ar/develop/unity/instant-preview)
+
+Known Limitations/Issues:
+- ArCore Instant Preview only supported on **Windows (discrete GPU's only)** and **macOS** development machines. On windows machines with an integrated GPU, the Unity Editor's video feed is not mirrored back to your phone.
+- macOS Development machines should use Metal for rendering instead of OpenGL in Unity. **Player Settings > Settings for PC, Mac and Linux Standalone > Other Settings > Metal Editor Support**
